@@ -1,0 +1,198 @@
+<!--
+	Name: Nedim Tabaković
+	Course: CS412.1
+	Assignment: Project 3
+	Due Date: 9.12.2021
+	Purpose: Using HTML, CSS and JavaScript to create a resume 
+	-->
+<!DOCTYPE html> <html>
+ <head> 
+	<script src="https://kit.fontawesome.com/46f4c88efa.js" crossorigin="anonymous"></script>
+	 <link rel="stylesheet" href="style.css">
+ 	<meta charset="utf-8"> 
+	<title> Nedim Tabaković's resume</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;700&display=swap" rel="stylesheet">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+</head>
+<style>
+	.custom-shape-divider-bottom-1638799228 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1638799228 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-bottom-1638799228 .shape-fill {
+    fill:rgb(177, 196, 189);
+}
+</style>
+<body>
+<div class="header">
+	<div class="innerHeader">
+	<div class="Logo";>
+
+			<h1 class="ml1">
+			<span class="text-wrapper">
+				<span class="line line1"></span>
+				<span class="letters">NedimTabakovic/<span>Resume</span></span>
+				<span class="line line2"></span>
+			  </span>
+			</h1>
+			
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+			
+		</div>
+		
+	<div class="NavNav">
+		<p>
+			<!-- nav buttons !-->
+ <a href="#AboutMe"><button class="button-6" role="button">About me</button></a>
+ <a href="#Education"><button class="button-6" role="button">Education</button></a>
+ <a href="#Contact"><button class="button-6" role="button">Contact</button></a>
+		</p>
+	</div>
+	
+		
+		  
+
+	
+	</div>	
+</div>
+
+<div style="position: relative; min-height: 53vh;" class="float-container">
+	
+	 <div class="aboutMe-child">
+		 
+			<img class="nedimFig" src="nedimtabakovicresume.jpg" alt="Italian Trulli">
+
+<div class="float-child">
+	<h1 id="AboutMe">
+		ABOUT ME
+	</h1>
+	<p>Motivated software engineer student familiar with web development and design, interested in HTML, CSS, JavaScript, C#, Angular and .NET 
+		Worked on numerous projects throughout academic career using C++, Java, Python and Ruby. Currently focused on enterprise grade technologies and applications. Experience in project management and planning. Driven towards creating a sufficient and stable career in the IT industry.  </p>
+	
+	
+</div>
+</div>
+
+
+	
+<div class="custom-shape-divider-bottom-1638799228">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+    </svg>
+</div>
+</div>
+
+
+
+<!-- second float container -->
+<div style="position: relative; min-height: 50vh;" class="float-container-education">
+	
+	<div class="education-child">
+		
+		<h1 id="Education">
+			Education
+		</h1>
+		
+	<p>
+		<ul>
+			<li><u>Elementary school </u>: <a href="http://oszd.edu.ba/">Osnovna škola Zajko Delić</a> 2007-2014</li>
+			<li><u>High school</u> <a href="https://www.ggs.edu.ba/">Srednja građevinsko-geodetska škola Sarajevo </a> 2014-2018</li>
+			<li><u>University<a href="https://www.ius.edu.ba">International university of Sarajevo </a>2019 - present</li>
+		</ul>
+	</p>
+
+		   
+	
+
+<div class="float-child-education">
+	<h1>
+		Languages I speak
+	</h1>
+
+	<p style="font-size: 20px;">Type English, Bosnian, Turkish and Mandarin</p>
+	<p>Type desired language to see the level of my expertise</p>
+
+<input id="inputlang" type="text">
+
+<button class="lang" onclick="myFunction()">Try it</button>
+
+<p style="font-size: 25px;" id="lang"></p>
+
+<br>	
+
+	<h1>
+		Languages I code in
+	</h1>
+
+	<p id="arr"></p>
+
+	  </div>
+   
+   
+   
+   
+</div>
+</div>
+
+
+   
+
+</div>
+<!--Contact container-->
+<div class="contact-container">
+	
+	<div class="contact-list">
+		<h1 id="Contact">
+			Contact
+		</h1>
+	<ul>
+		<li>Email: nedimtabakovic00@gmail.com</li>
+		<li>Telephone number: 387603102988</li>
+		<li>Address: Lorem Ipsum 46</li>
+
+	</ul>
+
+	  <button class="trigger">Click for more information</button>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h1>Please contact me in following time slots:<hr>
+				Working days 8 AM - 4 PM <hr>
+				Non-working days 10 AM - 2 PM</h1>
+        </div>
+    </div>
+	
+
+</div>
+
+
+<a href="#" class="to-top" title="Go to top">
+    <i class="fa fa-sort-asc"></i>
+    </a>
+
+	
+
+        <script src="resume.js"></script>
+		
+
+</body>
+
