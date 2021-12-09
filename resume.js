@@ -1,5 +1,5 @@
 //scroll to top button
-$( document ).ready(function() {
+
 const toTop = document.querySelector('.to-top');
 window.addEventListener('scroll', () => {
     if (window.pageYOffset > 100) {
@@ -104,6 +104,4 @@ anime.timeline({
         easing: "easeOutExpo",
         delay: 1000
     });
-}
 
-)
